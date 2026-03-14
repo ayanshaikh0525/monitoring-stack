@@ -1,0 +1,14 @@
+*.tfstate
+*.tfstate.*
+
+*.tfplan
+*.tfplan.binary
+
+.terraform/
+
+crash.log
+
+.terraformrc
+terraform.rc
+
+
