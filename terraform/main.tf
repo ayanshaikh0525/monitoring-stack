@@ -59,7 +59,7 @@ resource "aws_instance" "monitoring_server" {
 
   security_groups = [aws_security_group.monitoring_sg.name]
 
-  key_name = "devops-key"
+  key_name = "temp"
 
   tags = {
     Name = "monitoring-stack"
