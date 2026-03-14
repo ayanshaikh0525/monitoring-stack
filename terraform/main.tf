@@ -65,3 +65,5 @@ resource "aws_instance" "monitoring_server" {
     Name = "monitoring-stack"
   }
 }
+
+
